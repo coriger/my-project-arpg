@@ -1,0 +1,12 @@
+package com.road.arpg.module.common.command.proto;
+option java_package = "com.road.arpg.module.common.command.pb";
+option java_outer_classname = "LoginSuccessProto";
+
+/**
+ * 各个协议都分开，考虑以后需要动态更新，不能将一个协议文件中生成多个协议内容
+ * 登陆协议 
+ */
+message LoginSuccessProtoMsg
+{
+	required int64 playerID = 1;		//账户名
+}

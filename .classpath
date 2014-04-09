@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.7.0_21"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="lib/bonecp-0.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/guava-r07.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.5.8.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-simple-1.5.2.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.13.jar"/>
+	<classpathentry kind="lib" path="lib/dom4j-1.6.1.jar" sourcepath="E:/我的包/dom4j-1.6.1/src/java"/>
+	<classpathentry kind="lib" path="lib/jaxen-1.1-beta-6.jar"/>
+	<classpathentry kind="lib" path="lib/mina-core-2.0.7.jar" sourcepath="E:/我的包/src/apache-mina-2.0.7/src/mina-core/src/main/java"/>
+	<classpathentry kind="lib" path="lib/quartz-1.8.3.jar"/>
+	<classpathentry kind="lib" path="lib/protobuf-java-2.4.1.jar"/>
+	<classpathentry kind="lib" path="lib/netty-all-4.0.14.Final.jar" sourcepath="E:/我的包/netty-4.0.14.Final/jar/all-in-one/netty-all-4.0.14.Final-sources.jar"/>
+	<classpathentry kind="lib" path="lib/xSocket-2.8.13.jar" sourcepath="E:/我的包/src/xSocket-2.8.13-sources.jar"/>
+	<classpathentry kind="lib" path="lib/groovy-all-2.1.5.jar"/>
+	<classpathentry kind="lib" path="lib/ehcache-2.8.1.jar" sourcepath="C:/Users/dream.xie/Desktop/ehcache-2.8.1/src/"/>
+	<classpathentry kind="output" path="bin/main"/>
+</classpath>

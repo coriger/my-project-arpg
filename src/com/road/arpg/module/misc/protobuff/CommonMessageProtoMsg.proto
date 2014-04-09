@@ -1,0 +1,13 @@
+package com.road.arpg.module.common.command.proto;
+option java_package = "com.road.arpg.module.common.command.pb";
+option java_outer_classname = "CommonMessageProto";
+
+/**
+ * 
+ * 发送公共消息时用 
+ */
+message CommonMessageProtoMsg
+{
+	required int32 type = 1;			//公共消息的类型
+	required string content = 2;			//消息正文
+}

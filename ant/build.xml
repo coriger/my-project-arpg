@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="arpg" basedir="..">
+	<!-- 定义路径 -->
+	<property name="src" value="src" description="源代码目录" />
+	<property name="test" value="test" description="测试代码目录" />
+	<property name="lib" value="lib" description="主程序lib目录" />
+	<property name="dest" value="d:/arpg" description="编译完后输出目的地" />
+	<property name="mainJavapath" value="${dest}/bin/main" description="JAVA主要代码生成路径" />
+	<property name="testJavapath" value="${dest}/bin/test" description="JAVA测试代码生成路径" />
+
+	<path id="classpath">
+		<fileset dir="${dest}/lib">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+	<!--初始化 -->
+	<target name="init">
+		<delete dir="${dest}" />
+		<mkdir dir="${dest}" />
+		<mkdir dir="${dest}/bin" />
+		<mkdir dir="${mainJavapath}" />
+		<mkdir dir="${testJavapath}" />
+		<mkdir dir="${dest}/log" />
+		<copydir dest="${dest}/config" src="config" />
+		<copydir dest="${dest}/i18n" src="i18n" />
+		<copydir dest="${dest}/lib" src="lib" />
+		<copydir dest="${dest}/module" src="module" />
+		<copydir dest="${dest}/tmp" src="tmp" />
+		<copydir dest="${dest}/ant" src="ant" />
+	</target>
+	<!-- 编译代码 -->
+	<target name="compile" depends="init">
+		<javac source="1.7" srcdir="src" destdir="${mainJavapath}" debug="on" excludes="com/road/arpg/module/fight/**/*.java" includeantruntime="on">
+			<compilerarg line="-encoding UTF-8 " />
+			<classpath refid="classpath" />
+		</javac>
+	</target>
+
+	<!-- 启动服务器 -->
+	<target name="startServer" depends="compile">
+		<java classname="com.road.arpg.core.ServerStarter" classpath="${mainJavapath}">
+			<jvmarg value="-Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,suspend=y,server=y,address=8000" />
+		</java>
+	</target>
+</project>

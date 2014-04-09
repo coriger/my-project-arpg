@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 触发器配置LIVING，表示生物事件触发器，即 只能监听Living事件。同一触发器下的condition和action必须和触发器类型相同 -->
+<TriggerGroup>
+	<Trigger triggerID="1" des="随机移动">
+		<Condition logicType="and">
+		</Condition>
+		<Action logicType="and">
+			<!--param参数,随机移动 -->
+			<Action desc="随机移动">1</Action>
+		</Action>
+	</Trigger>
+	<Trigger triggerID="2" desc="被攻击后锁定目标">
+		<Condition logicType="and">
+			<Condition desc="能否攻击">1</Condition>
+		</Condition>
+		<YesActions logicType="and">
+			<Action logicType="and">
+				<Action desc="攻击">2</Action>
+			</Action>
+		</YesActions>
+		<NoActions logicType="and">
+			<Action logicType="and">
+				<Action desc="追击目标">3</Action>
+			</Action>
+		</NoActions>
+	</Trigger>
+	<Trigger triggerID="3" desc="如果能攻击就攻击，如果视野内有敌方就朝他移动，不能就向对方基地移动">
+		<Condition logicType="and">
+			<Condition desc="能否开始攻击">4</Condition>
+		</Condition>
+		<YesActions>
+			<Action logicType="and">
+				<!--param参数 -->
+				<Action desc="攻击">2</Action>
+			</Action>
+		</YesActions>
+		<NoActions>
+			<Action logicType="and">
+				<!--param参数 -->
+				<Action desc="追击">3</Action>
+			</Action>
+		</NoActions>
+	</Trigger>
+	<Trigger triggerID="4" desc="被攻击之后改变目标，如果视野内有敌方就朝他移动，不能就向对方基地移动">
+		<Condition logicType="and">
+			<Condition desc="能否开始攻击">2</Condition>
+		</Condition>
+		<YesActions>
+			<Action logicType="and">
+				<!--param参数 -->
+				<Action desc="攻击">2</Action>
+			</Action>
+		</YesActions>
+		<NoActions>
+			<Action logicType="and">
+				<!--param参数 -->
+				<Action desc="追击">3</Action>
+			</Action>
+		</NoActions>
+	</Trigger>
+	<Trigger triggerID="5" desc="视野范围内是否有敌人，有敌人将敌人锁定，然后攻击或追击">
+		<Condition logicType="and">
+			<condition desc="视野范围时候有敌人">3</condition>
+		</Condition>
+		<NoActions>
+			<Action logicType="and">
+			<!--param参数,随机移动 -->
+			<Action desc="随机移动">1</Action>
+		</Action>
+		</NoActions>
+		<YesActions>
+			<Action logicType="and">
+				<!--param参数 -->
+				<Action desc="追击" param="3">11</Action>
+			</Action>
+		</YesActions>
+	</Trigger>
+</TriggerGroup>

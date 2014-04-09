@@ -1,0 +1,91 @@
+2014-03-31 18:13:23 [FATAL]Unexpected internal error near index 1
+\
+ ^
+java.util.regex.PatternSyntaxException: Unexpected internal error near index 1
+\
+ ^
+	at java.util.regex.Pattern.error(Pattern.java:1924)
+	at java.util.regex.Pattern.compile(Pattern.java:1671)
+	at java.util.regex.Pattern.<init>(Pattern.java:1337)
+	at java.util.regex.Pattern.compile(Pattern.java:1022)
+	at java.lang.String.replaceAll(String.java:2162)
+	at com.road.arpg.core.manager.module.ModuleManager.start(ModuleManager.java:107)
+	at com.road.arpg.core.GameServer.initManager(GameServer.java:218)
+	at com.road.arpg.core.GameServer.start(GameServer.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.road.arpg.core.ServerStarter.start(ServerStarter.java:53)
+	at com.road.arpg.core.ServerStarter.main(ServerStarter.java:34)
+2014-03-31 18:13:57 [FATAL]Unclosed character class near index 3
+[/\]
+   ^
+java.util.regex.PatternSyntaxException: Unclosed character class near index 3
+[/\]
+   ^
+	at java.util.regex.Pattern.error(Pattern.java:1924)
+	at java.util.regex.Pattern.clazz(Pattern.java:2493)
+	at java.util.regex.Pattern.sequence(Pattern.java:2030)
+	at java.util.regex.Pattern.expr(Pattern.java:1964)
+	at java.util.regex.Pattern.compile(Pattern.java:1665)
+	at java.util.regex.Pattern.<init>(Pattern.java:1337)
+	at java.util.regex.Pattern.compile(Pattern.java:1022)
+	at java.lang.String.replaceAll(String.java:2162)
+	at com.road.arpg.core.manager.module.ModuleManager.start(ModuleManager.java:107)
+	at com.road.arpg.core.GameServer.initManager(GameServer.java:218)
+	at com.road.arpg.core.GameServer.start(GameServer.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.road.arpg.core.ServerStarter.start(ServerStarter.java:53)
+	at com.road.arpg.core.ServerStarter.main(ServerStarter.java:34)
+2014-03-31 18:15:06 [FATAL]For input string: ""
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:504)
+	at java.lang.Integer.parseInt(Integer.java:527)
+	at com.road.arpg.module.fight.FighterModule.start(FighterModule.java:55)
+	at com.road.arpg.core.manager.module.ModuleManager.start(ModuleManager.java:119)
+	at com.road.arpg.core.GameServer.initManager(GameServer.java:218)
+	at com.road.arpg.core.GameServer.start(GameServer.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.road.arpg.core.ServerStarter.start(ServerStarter.java:53)
+	at com.road.arpg.core.ServerStarter.main(ServerStarter.java:34)
+2014-03-31 18:15:15 [FATAL]For input string: ""
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:504)
+	at java.lang.Integer.parseInt(Integer.java:527)
+	at com.road.arpg.module.fight.FighterModule.start(FighterModule.java:55)
+	at com.road.arpg.core.manager.module.ModuleManager.start(ModuleManager.java:119)
+	at com.road.arpg.core.GameServer.initManager(GameServer.java:218)
+	at com.road.arpg.core.GameServer.start(GameServer.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.road.arpg.core.ServerStarter.start(ServerStarter.java:53)
+	at com.road.arpg.core.ServerStarter.main(ServerStarter.java:34)
+2014-03-31 18:22:08 [FATAL]
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.road.arpg.core.GameServer.initManager(GameServer.java:214)
+	at com.road.arpg.core.GameServer.start(GameServer.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at com.road.arpg.core.ServerStarter.start(ServerStarter.java:53)
+	at com.road.arpg.core.ServerStarter.main(ServerStarter.java:34)
+Caused by: java.lang.Error: Unresolved compilation problem: 
+
+	at com.road.arpg.core.manager.socket.SocketManager.getInstance(SocketManager.java:69)
+	... 12 more

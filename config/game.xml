@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE game>
+<game>
+	<base>
+		<!-- 国家 -->
+		<country>CN</country>
+		<!-- 语言 -->
+		<language>zh</language>
+		<!-- 端口 -->
+		<port>9000</port>
+		<!-- 代理商以及区号 -->
+		<gameSite>7road_0001</gameSite>
+		<!-- 版本 当天时间-打包次数 -->
+		<version>20140217-1</version>
+	</base>
+	
+	<!-- Modules配置，具体模块只有2个属性： ip为真正的模块所在物理机的IP，port为真正模块所在物理机的port ,其他属性用子节点表示 -->
+	<modules>
+		<chatModule ip="localhost" port="9001">
+		</chatModule>
+		<fighterModule>
+			<!-- 单位毫秒 -->
+			<tick>60</tick>
+		</fighterModule>
+	</modules>
+	<!-- 杂项 -->
+	<misc>
+		<!-- socket 类型 ：mina,netty,xsocket ipCiphertext密文还是明文，true表示密文。-->
+		<socketType isCiphertext="false">xsocket</socketType>
+		<!-- command执行时间，超过这个时间记录日志， 单位毫秒。-->
+		<cmdRuntime>1000</cmdRuntime>
+	</misc>
+	
+	<!--管理器 启服的时候严格按照XML配置顺序加载，停服的时候是相反的顺序执行-->
+	<managers>
+		<manager use="true" class="com.road.arpg.core.manager.cache.CacheManager" />
+		<manager use="true" class="com.road.arpg.core.manager.groovy.GroovyManager"/>
+		<manager use="true" class="com.road.arpg.core.manager.database.DataBaseManager"/>
+		<manager use="true" class="com.road.arpg.core.manager.timer.TimerManager"/>
+		<manager use="true" class="com.road.arpg.core.manager.module.ModuleManager"/>
+		<manager use="true" class="com.road.arpg.core.manager.socket.SocketManager"/>
+	</managers>
+	<!--数据库信息 -->
+	<database>
+		<!--游戏库-->
+		<gameDB>
+			<!--ip+:+端口+/+数据库-->
+			<url>172.16.6.45:3306/t_arpg_game</url>
+			<!--用户名-->
+			<username>root</username>
+			<!--密码-->
+			<password>123456</password>
+			<!-- 分区数 -->
+			<partitionCount>2</partitionCount>
+			<!-- 每个分区最小连接数 -->
+			<minConnectionsPerPartition>10</minConnectionsPerPartition>
+			<!-- 每个分区最大连接数 -->
+			<maxConnectionsPerPartition>20</maxConnectionsPerPartition>
+			<!-- 分区连接增长数 -->
+			<acquireIncrement>5</acquireIncrement>
+		</gameDB>
+		<!--base库-->
+		<baseDB>
+			<!--ip+:+端口+/+数据库-->
+			<url>172.16.6.45:3306/t_arpg_base</url>
+			<!--用户名-->
+			<username>root</username>
+			<!--密码-->
+			<password>123456</password>
+			<!-- 分区数 -->
+			<partitionCount>1</partitionCount>
+			<!-- 每个分区最小连接数 -->
+			<minConnectionsPerPartition>2</minConnectionsPerPartition>
+			<!-- 每个分区最大连接数 -->
+			<maxConnectionsPerPartition>2</maxConnectionsPerPartition>
+			<!-- 分区连接增长数 -->
+			<acquireIncrement>1</acquireIncrement>
+		</baseDB>
+		<!--日志库-->
+		<logDB>
+			<!--ip+:+端口+/+数据库-->
+			<url>172.16.6.45:3306/t_arpg_log</url>
+			<!--用户名-->
+			<username>root</username>
+			<!--密码-->
+			<password>123456</password>
+			<!-- 分区数 -->
+			<partitionCount>2</partitionCount>
+			<!-- 每个分区最小连接数 -->
+			<minConnectionsPerPartition>5</minConnectionsPerPartition>
+			<!-- 每个分区最大连接数 -->
+			<maxConnectionsPerPartition>10</maxConnectionsPerPartition>
+			<!-- 分区连接增长数 -->
+			<acquireIncrement>2</acquireIncrement>
+		</logDB>
+	</database>
+</game>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenes>
+	<scene name="襄阳" sceneID="1" width="1000" heigh="1000">
+	    <!--  地图中的npc列表，指的是任务npc之类的不动，但是与玩家交互的npc -->
+	    <npcs>
+	        <!--  此类怪物不能被攻击  -->
+	        <object objID="1" name="黄药师" posX="123" posY="123" aiID="0"></object>
+	        <object objID="1" name="梅超风" posX="323" posY="423" aiID="0"></object>
+	        <object objID="1" name="谢逊" posX="723" posY="823" aiID="0"></object>
+	    </npcs>
+	    <monsters>
+	        <!--  黑旋风的智力类型属于激活之后也不动 ，无攻击，无移动，唯一活动是，死亡后定时复活-->
+	       <object objID="2" name="黑旋风" posX="155" posY="97" aiID="0"></object>
+	       <object objID="2" name="黑旋风" posX="149" posY="141" aiID="0"></object>
+	       <object objID="2" name="黑旋风" posX="247" posY="169" aiID="0"></object>
+	       <object objID="2" name="黑旋风" posX="167" posY="239" aiID="0"></object>
+	       <object objID="2" name="黑旋风" posX="125" posY="195" aiID="0"></object>
+	       <object objID="2" name="黑旋风" posX="235" posY="133" aiID="0"></object>
+	       <object objID="2" name="黑旋风" posX="149" posY="85" aiID="0"></object>
+	       <object objID="2" name="黑旋风" posX="79" posY="175" aiID="0"></object>
+	       <object objID="2" name="黑旋风" posX="183" posY="125" aiID="0"></object>
+	       <object objID="2" name="黑旋风" posX="137" posY="231" aiID="0"></object>
+	       <object objID="2" name="黑旋风" posX="181" posY="187" aiID="0"></object>
+	       <object objID="2" name="黑旋风" posX="227" posY="233" aiID="0"></object>
+	       <object objID="2" name="黑旋风" posX="153" posY="177" aiID="0"></object>
+	       <object objID="2" name="黑旋风" posX="215" posY="195" aiID="0"></object>
+	       <object objID="2" name="黑旋风" posX="183" posY="161" aiID="0"></object>
+	       <object objID="2" name="黑旋风" posX="135" posY="117" aiID="0"></object>
+	       <object objID="2" name="黑旋风" posX="141" posY="253" aiID="0"></object>
+	       <object objID="2" name="黑旋风" posX="123" posY="167" aiID="0"></object>
+	       <object objID="2" name="黑旋风" posX="153" posY="125" aiID="0"></object>
+	       <object objID="2" name="黑旋风" posX="221" posY="171" aiID="0"></object>
+	       <object objID="2" name="黑旋风" posX="93" posY="139" aiID="0"></object>
+	       <object objID="2" name="黑旋风" posX="167" posY="263" aiID="0"></object>
+	       <object objID="2" name="黑旋风" posX="91" posY="233" aiID="0"></object>
+	       <object objID="2" name="黑旋风" posX="187" posY="219" aiID="0"></object>
+	       <object objID="2" name="黑旋风" posX="87" posY="169" aiID="0"></object>
+	       <object objID="2" name="黑旋风" posX="165" posY="195" aiID="0"></object>
+	       <object objID="2" name="黑旋风" posX="225" posY="147" aiID="0"></object>
+	       <object objID="2" name="黑旋风" posX="171" posY="87" aiID="0"></object>
+	       <object objID="2" name="黑旋风" posX="89" posY="187" aiID="0"></object>
+	       <object objID="2" name="黑旋风" posX="157" posY="153" aiID="0"></object>
+	       <object objID="2" name="黑旋风" posX="195" posY="145" aiID="0"></object>
+	       <object objID="2" name="黑旋风" posX="239" posY="189" aiID="0"></object>
+	       <object objID="2" name="黑旋风" posX="185" posY="247" aiID="0"></object>
+	       <object objID="2" name="黑旋风" posX="131" posY="147" aiID="0"></object>
+	       <object objID="2" name="黑旋风" posX="143" posY="195" aiID="0"></object>
+	       <!--  黄毛怪  ai类型属于激活之后到处移动，无攻击行为，死亡后定时复活-->
+	       <object objID="3" name="黄毛怪" posX="811" posY="827" aiID="1"></object>
+	       <object objID="3" name="黄毛怪" posX="823" posY="767" aiID="1"></object>
+	       <object objID="3" name="黄毛怪" posX="773" posY="783" aiID="1"></object>
+	       <object objID="3" name="黄毛怪" posX="741" posY="881" aiID="1"></object>
+	       <object objID="3" name="黄毛怪" posX="847" posY="923" aiID="1"></object>
+	       <object objID="3" name="黄毛怪" posX="917" posY="861" aiID="1"></object>
+	       <object objID="3" name="黄毛怪" posX="809" posY="757" aiID="1"></object>
+	       <object objID="3" name="黄毛怪" posX="869" posY="761" aiID="1"></object>
+	       <object objID="3" name="黄毛怪" posX="691" posY="851" aiID="1"></object>
+	       <object objID="3" name="黄毛怪" posX="775" posY="859" aiID="1"></object>
+	       <object objID="3" name="黄毛怪" posX="769" posY="929" aiID="1"></object>
+	       <object objID="3" name="黄毛怪" posX="845" posY="789" aiID="1"></object>
+	       <object objID="3" name="黄毛怪" posX="789" posY="845" aiID="1"></object>
+	       <object objID="3" name="黄毛怪" posX="771" posY="847" aiID="1"></object>
+	       <object objID="3" name="黄毛怪" posX="915" posY="865" aiID="1"></object>
+	       <object objID="3" name="黄毛怪" posX="795" posY="945" aiID="1"></object>
+	       <object objID="3" name="黄毛怪" posX="897" posY="915" aiID="1"></object>
+	       <object objID="3" name="黄毛怪" posX="713" posY="793" aiID="1"></object>
+	       <object objID="3" name="黄毛怪" posX="731" posY="927" aiID="1"></object>
+	       <object objID="3" name="黄毛怪" posX="905" posY="795" aiID="1"></object>
+	       <object objID="3" name="黄毛怪" posX="703" posY="803" aiID="1"></object>
+	       <object objID="3" name="黄毛怪" posX="857" posY="841" aiID="1"></object>
+	       <!-- 红野猪 此怪物ai类型属于激活之后移动，被攻击之后会攻击，一直追杀第一个攻击他的玩家，直到目标走出他的活动区域，死亡后定时复活-->
+	        <object objID="4" name="红野猪" posX="859" posY="271" aiID="2"></object>
+	        <object objID="4" name="红野猪" posX="859" posY="249" aiID="2"></object>
+	        <object objID="4" name="红野猪" posX="853" posY="233" aiID="2"></object>
+	        <object objID="4" name="红野猪" posX="833" posY="285" aiID="2"></object>
+	        <object objID="4" name="红野猪" posX="915" posY="279" aiID="2"></object>
+	        <object objID="4" name="红野猪" posX="821" posY="345" aiID="2"></object>
+	        <object objID="4" name="红野猪" posX="769" posY="273" aiID="2"></object>
+	        <object objID="4" name="红野猪" posX="843" posY="279" aiID="2"></object>
+	        <object objID="4" name="红野猪" posX="815" posY="228" aiID="2"></object>
+	        <object objID="4" name="红野猪" posX="881" posY="299" aiID="2"></object>
+	        <object objID="4" name="红野猪" posX="781" posY="291" aiID="2"></object>
+	        <object objID="4" name="红野猪" posX="887" posY="229" aiID="2"></object>
+	        <object objID="4" name="红野猪" posX="873" posY="279" aiID="2"></object>
+	        <object objID="4" name="红野猪" posX="825" posY="263" aiID="2"></object>
+	        <object objID="4" name="红野猪" posX="787" posY="251" aiID="2"></object>
+	        <object objID="4" name="红野猪" posX="847" posY="333" aiID="2"></object>
+	        <object objID="4" name="红野猪" posX="845" posY="237" aiID="2"></object>
+	        <object objID="4" name="红野猪" posX="851" posY="391" aiID="2"></object>
+	        <object objID="4" name="红野猪" posX="823" posY="301" aiID="2"></object>
+	        <object objID="4" name="红野猪" posX="885" posY="257" aiID="2"></object>
+	       <!-- 蓝精灵 此怪物ai类型属于激活之后移动，被攻击之后会攻击，谁最后打他，他追杀谁，直到目标走出他的活动区域，死亡后定时复活-->
+	        <object objID="5" name="蓝精灵" posX="345" posY="561" aiID="3"></object>
+	       <!-- 绿巨人 此怪物ai类型属于激活之后追杀，直到目标走出他的活动区域，死亡后定时复活-->
+	        <object objID="6" name="绿巨人" posX="577" posY="181" aiID="4"></object>
+	        <object objID="6" name="绿巨人" posX="517" posY="111" aiID="4"></object>
+	        <object objID="6" name="绿巨人" posX="517" posY="141" aiID="4"></object>
+	        <object objID="6" name="绿巨人" posX="576" posY="281" aiID="4"></object>
+	        <object objID="6" name="绿巨人" posX="507" posY="91" aiID="4"></object>
+	        <object objID="6" name="绿巨人" posX="507" posY="181" aiID="4"></object>
+	        <object objID="6" name="绿巨人" posX="477" posY="111" aiID="4"></object>
+	        <object objID="6" name="绿巨人" posX="377" posY="181" aiID="4"></object>
+	        <object objID="6" name="绿巨人" posX="677" posY="281" aiID="4"></object>
+	        <object objID="6" name="绿巨人" posX="977" posY="181" aiID="4"></object>
+	        <object objID="6" name="绿巨人" posX="677" posY="381" aiID="4"></object>
+	        <object objID="6" name="绿巨人" posX="587" posY="121" aiID="4"></object>
+	        <object objID="6" name="绿巨人" posX="537" posY="101" aiID="4"></object>
+	        <object objID="6" name="绿巨人" posX="627" posY="111" aiID="4"></object>
+	        <object objID="6" name="绿巨人" posX="637" posY="181" aiID="4"></object>
+	    </monsters>
+	</scene>
+</scenes>

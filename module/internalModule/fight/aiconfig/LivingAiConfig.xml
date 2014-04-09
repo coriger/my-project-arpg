@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Livings>
+  <Living configID="0" desc="黑旋风 用来创建一个没有任何行为的生物（注意：此生物不能移动）的空AI">
+    <TriggersGroup>
+    </TriggersGroup>
+  </Living>
+  <Living configID="1" desc="黄毛怪（只有移动）AI">
+    <TriggersGroup>
+      	<Trigger eventType="UPDATE_LAZZY" desc="毫无目的的随机移动">1</Trigger>
+    </TriggersGroup>
+  </Living>
+  <Living configID="2" desc="红野猪 此怪物ai类型属于激活之后移动，被攻击之后会攻击，一直追杀第一个攻击他的玩家，直到目标走出他的活动区域，死亡后定时复活">
+    <TriggersGroup>
+      	<Trigger eventType="UPDATE_LAZZY" desc="激活之后移动">1</Trigger>
+      	<Trigger eventType="AFTER_BE_HURT" desc="被攻击之后锁定目标，能攻击就攻击，不能攻击就移动到能攻击，超出边界不追杀">2</Trigger>
+      	<Trigger eventType="UPDATE_REST" desc="能攻击就攻击，不能攻击就走近敌人">3</Trigger>
+      	<Trigger eventType="MOVING" desc="能攻击就攻击，不能攻击就走近敌人">3</Trigger>
+    </TriggersGroup>
+  </Living>
+  <Living configID="3" desc="蓝精灵 此怪物ai类型属于激活之后移动，被攻击之后会攻击，谁最后打他，他追杀谁，直到目标走出他的活动区域">
+    <TriggersGroup>
+    	<Trigger eventType="UPDATE_LAZZY" desc="激活之后移动">1</Trigger>
+      	<Trigger eventType="AFTER_BE_HURT" desc="如果打他，他就锁定目标设置为谁，如果能攻击，那么攻击，如果不能攻击，就将自己设置为追杀状态">4</Trigger>
+      	<Trigger eventType="UPDATE_REST" desc="如果能攻击目标就攻击，如果不能就追杀">3</Trigger>
+      	<Trigger eventType="MOVING" desc="如果能攻击目标就攻击，如果不能就追杀">3</Trigger>
+    </TriggersGroup>
+  </Living>
+  <Living configID="4" desc="绿巨人 此怪物ai类型属于激活之后追杀，直到目标走出他的活动区域，死亡后定时复活">
+    <TriggersGroup>
+      <Trigger eventType="UPDATE_LAZZY" desc="对视野范围搜索，如果有敌人将其设置为目标">5</Trigger>
+      <Trigger eventType="UPDATE_REST" desc="如果能攻击目标就攻击，不能攻击就追杀">3</Trigger>
+      <Trigger eventType="MOVING" desc="如果能攻击目标就攻击，如果不能就追杀">3</Trigger>
+    </TriggersGroup>
+  </Living>
+</Livings>

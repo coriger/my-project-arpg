@@ -1,0 +1,191 @@
+2014-03-10 14:48:20 [ERROR]command error code: 13329
+java.lang.NullPointerException
+	at com.road.arpg.core.manager.socket.ExcuteCommand.excute(ExcuteCommand.java:59)
+	at com.road.arpg.core.manager.socket.ExcuteCommand.run(ExcuteCommand.java:49)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+2014-03-10 14:48:39 [ERROR]command error code: 13329
+java.lang.NullPointerException
+	at com.road.arpg.core.manager.socket.ExcuteCommand.excute(ExcuteCommand.java:59)
+	at com.road.arpg.core.manager.socket.ExcuteCommand.run(ExcuteCommand.java:49)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+2014-03-10 14:50:16 [ERROR]command error code: 13329
+java.lang.NullPointerException
+	at com.road.arpg.core.manager.socket.ExcuteCommand.excute(ExcuteCommand.java:59)
+	at com.road.arpg.core.manager.socket.ExcuteCommand.run(ExcuteCommand.java:49)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+2014-03-10 14:51:55 [ERROR]command error code: 13329
+java.lang.NullPointerException
+	at com.road.arpg.core.manager.socket.ExcuteCommand.excute(ExcuteCommand.java:59)
+	at com.road.arpg.core.manager.socket.ExcuteCommand.run(ExcuteCommand.java:49)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+2014-03-10 14:54:10 [ERROR]command error code: 13329
+java.lang.NullPointerException
+	at com.road.arpg.core.manager.socket.ExcuteCommand.excute(ExcuteCommand.java:59)
+	at com.road.arpg.core.manager.socket.ExcuteCommand.run(ExcuteCommand.java:49)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+2014-03-10 14:54:31 [ERROR]command error code: -8175
+java.lang.NullPointerException
+	at com.road.arpg.core.manager.socket.ExcuteCommand.excute(ExcuteCommand.java:59)
+	at com.road.arpg.core.manager.socket.ExcuteCommand.run(ExcuteCommand.java:49)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+2014-03-10 15:00:33 [ERROR]command error code: 13329
+java.lang.NullPointerException
+	at com.road.arpg.core.manager.socket.ExcuteCommand.excute(ExcuteCommand.java:59)
+	at com.road.arpg.core.manager.socket.ExcuteCommand.run(ExcuteCommand.java:49)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+2014-03-10 15:01:42 [ERROR]command error code: -8175
+java.lang.NullPointerException
+	at com.road.arpg.core.manager.socket.ExcuteCommand.excute(ExcuteCommand.java:59)
+	at com.road.arpg.core.manager.socket.ExcuteCommand.run(ExcuteCommand.java:49)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+2014-03-10 15:02:10 [ERROR]command error code: -27631
+java.lang.NullPointerException
+	at com.road.arpg.core.manager.socket.ExcuteCommand.excute(ExcuteCommand.java:59)
+	at com.road.arpg.core.manager.socket.ExcuteCommand.run(ExcuteCommand.java:49)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+2014-03-10 15:04:03 [ERROR]command error code: -16367
+java.lang.NullPointerException
+	at com.road.arpg.core.manager.socket.ExcuteCommand.excute(ExcuteCommand.java:59)
+	at com.road.arpg.core.manager.socket.ExcuteCommand.run(ExcuteCommand.java:49)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+2014-03-10 15:04:20 [ERROR]command error code: 29713
+java.lang.NullPointerException
+	at com.road.arpg.core.manager.socket.ExcuteCommand.excute(ExcuteCommand.java:59)
+	at com.road.arpg.core.manager.socket.ExcuteCommand.run(ExcuteCommand.java:49)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+2014-03-10 15:05:23 [ERROR]command error code: -24559
+java.lang.NullPointerException
+	at com.road.arpg.core.manager.socket.ExcuteCommand.excute(ExcuteCommand.java:59)
+	at com.road.arpg.core.manager.socket.ExcuteCommand.run(ExcuteCommand.java:49)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+2014-03-10 15:06:13 [ERROR]command error code: -11247
+java.lang.NullPointerException
+	at com.road.arpg.core.manager.socket.ExcuteCommand.excute(ExcuteCommand.java:59)
+	at com.road.arpg.core.manager.socket.ExcuteCommand.run(ExcuteCommand.java:49)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+2014-03-10 15:07:04 [ERROR]command error code: -32751
+java.lang.NullPointerException
+	at com.road.arpg.core.manager.socket.ExcuteCommand.excute(ExcuteCommand.java:59)
+	at com.road.arpg.core.manager.socket.ExcuteCommand.run(ExcuteCommand.java:49)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+2014-03-10 15:07:31 [ERROR]command error code: -19439
+java.lang.NullPointerException
+	at com.road.arpg.core.manager.socket.ExcuteCommand.excute(ExcuteCommand.java:59)
+	at com.road.arpg.core.manager.socket.ExcuteCommand.run(ExcuteCommand.java:49)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+2014-03-10 15:08:50 [ERROR]command error code: 5137
+java.lang.NullPointerException
+	at com.road.arpg.core.manager.socket.ExcuteCommand.excute(ExcuteCommand.java:59)
+	at com.road.arpg.core.manager.socket.ExcuteCommand.run(ExcuteCommand.java:49)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+2014-03-10 15:10:33 [ERROR]command error code: 16401
+java.lang.NullPointerException
+	at com.road.arpg.core.manager.socket.ExcuteCommand.excute(ExcuteCommand.java:59)
+	at com.road.arpg.core.manager.socket.ExcuteCommand.run(ExcuteCommand.java:49)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+2014-03-10 15:14:23 [ERROR]command error code: 13329
+java.lang.NullPointerException
+	at com.road.arpg.core.manager.socket.ExcuteCommand.excute(ExcuteCommand.java:59)
+	at com.road.arpg.core.manager.socket.ExcuteCommand.run(ExcuteCommand.java:49)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+2014-03-10 15:44:17 [ERROR]command error code: 13329
+java.lang.NullPointerException
+	at com.road.arpg.core.manager.socket.ExcuteCommand.excute(ExcuteCommand.java:59)
+	at com.road.arpg.core.manager.socket.ExcuteCommand.run(ExcuteCommand.java:49)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+2014-03-18 10:57:54 [ERROR]测试log4j

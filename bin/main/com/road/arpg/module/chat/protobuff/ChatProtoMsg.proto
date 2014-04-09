@@ -1,0 +1,12 @@
+package com.road.arpg.module.chat.command.proto;
+option java_package = "com.road.arpg.module.chat.command.pb";
+option java_outer_classname = "ChatProto";
+
+/**
+ * 
+ */
+message ChatProtoMsg
+{
+	required int32 type = 1;		//消息类型
+	required string content = 2;	//消息内容
+}

@@ -1,0 +1,13 @@
+package com.road.arpg.module.common.command.proto;
+option java_package = "com.road.arpg.module.common.command.pb";
+option java_outer_classname = "LoginProto";
+
+/**
+ * 各个协议都分开，考虑以后需要动态更新，不能将一个协议文件中生成多个协议内容
+ * 登陆协议 
+ */
+message LoginProtoMsg
+{
+	required string username = 1;		//账户名
+	required string site = 2;			//登陆站点
+}
